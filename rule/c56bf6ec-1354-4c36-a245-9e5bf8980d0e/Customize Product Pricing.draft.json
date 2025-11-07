@@ -1,0 +1,104 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "data": {
+  "createdAt": "2025-11-07T09:36:32.56Z",
+  "updatedAt": "2025-11-07T09:36:32.56Z",
+  "isDeleted": false,
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "c56bf6ec-1354-4c36-a245-9e5bf8980d0e",
+  "name": "Customize Product Pricing",
+  "commitId": "commit-6905fddd-7daf-444b-8443-1fe36d89cced",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-07 09:36:32",
+   "timeStamp": "2025-11-07T09:36:32.560528384Z"
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "rule_03": {
+     "type": "simpleCondition"
+    }
+   },
+   "results": {
+    "result_01": {
+     "dataType": "string",
+     "keyName": "keyName"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03"
+  },
+  "action": {
+   "then": {
+    
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rule_04"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "nodeType": "params",
+     "siblingIndex": 1
+    },
+    "rule_04": {
+     "value": "",
+     "nodeType": "constant",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    }
+   },
+   "startNode": "rule_01"
+  },
+  "description": "",
+  "policy": "first",
+  "version": "draft",
+  "type": "decisionTable",
+  "settings": {
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   }
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
