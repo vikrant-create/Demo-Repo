@@ -1,0 +1,86 @@
+{
+ "entityType": "rule",
+ "category": "simpleRule",
+ "data": {
+  "createdAt": "2025-11-07T09:14:48.553Z",
+  "updatedAt": "2025-11-07T09:14:48.553Z",
+  "isDeleted": false,
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "f93b4c06-33b2-4084-81e6-27e2117cbe4f",
+  "name": "Customize Product Pricing_1",
+  "commitId": "commit-7c26e973-1936-4a59-b773-291f7a593cbc",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-07 09:14:48",
+   "timeStamp": "2025-11-07T09:14:48.553618485Z"
+  },
+  "decisionTable": {
+   
+  },
+  "action": {
+   "then": {
+    
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_02": {
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rule_04"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "nodeType": "params",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    },
+    "rule_04": {
+     "value": "",
+     "nodeType": "constant",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    },
+    "rule_01": {
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    }
+   },
+   "startNode": "rule_01"
+  },
+  "description": "",
+  "version": "draft",
+  "type": "simpleRule",
+  "settings": {
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   }
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
