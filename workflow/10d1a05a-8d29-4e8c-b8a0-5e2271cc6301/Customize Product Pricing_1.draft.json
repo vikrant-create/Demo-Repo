@@ -1,0 +1,52 @@
+{
+ "entityType": "workflow",
+ "data": {
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "createdAt": "2025-11-11T06:42:48.858Z",
+  "updatedAt": "2025-11-11T06:42:48.858Z",
+  "isDeleted": false,
+  "entityId": "10d1a05a-8d29-4e8c-b8a0-5e2271cc6301",
+  "name": "Customize Product Pricing_1",
+  "commitId": "commit-f7b334d5-f4b0-4126-a1dc-dc16b8310d40",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-11 06:42:48",
+   "timeStamp": "2025-11-11T06:42:48.85869124Z"
+  },
+  "version": "draft",
+  "description": "",
+  "trigger": {
+   
+  },
+  "nodes": [
+   {
+    "position": {
+     "y": 0,
+     "x": 0
+    },
+    "sourcePosition": "bottom",
+    "id": "1",
+    "type": "addNode",
+    "data": {
+     "settings": {
+      "authType": "none",
+      "isEnabled": true
+     },
+     "nodeType": "addNodeLg",
+     "runInLoop": {
+      
+     },
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   }
+  ],
+  "isEnabled": true,
+  "settings": {
+   
+  },
+  "isDemo": false
+ }
+}
